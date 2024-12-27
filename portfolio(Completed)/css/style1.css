@@ -1,0 +1,123 @@
+h1 {
+  color: rgba(192, 255, 193, 0.8);
+  font-size: 562%;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+}
+
+p {
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+hr {
+  border-style: dotted;
+  border-color: rgba(234, 246, 246, 0.5);
+  border-width: 6px;
+  border-bottom: none;
+  margin: 100px auto 100px auto;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  text-align: center;
+  background-color: rgba(64, 81, 78, 0.9);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(64, 81, 78, 0.9);
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  color: red;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-container {
+  background-color: rgba(0, 0, 255, 0.5);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.top-cloud {
+  width: 200px;
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  opacity: 0.8;
+}
+
+.bottom-cloud {
+  width: 200px;
+  position: absolute;
+  left: 15%;
+  top: 40%;
+  opacity: 0.8;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #c458a0;
+}
+
+.btn {
+  background: rgba(54, 147, 217, 0.8);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(54, 147, 217, 0.8),
+    rgba(196, 88, 160, 0.8)
+  );
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background: rgba(3, 48, 250, 0.8);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(3, 48, 250, 0.8),
+    rgba(211, 8, 247, 0.8)
+  );
+  text-decoration: none;
+}
